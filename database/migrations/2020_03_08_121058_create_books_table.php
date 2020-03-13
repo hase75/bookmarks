@@ -18,6 +18,7 @@ class CreateBooksTable extends Migration
             $table->string('title', 20);
             $table->integer('price');
             $table->string('outline', 40)->nullable();
+            $table->text('image');
             $table->timestamps();
             $table->unsignedBigInteger('created_by')->nullable();
             $table->unsignedBigInteger('updated_by')->nullable();
