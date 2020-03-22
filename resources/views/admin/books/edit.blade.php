@@ -51,7 +51,7 @@
                 <div class="col-1"></div>
 
                 <div class="col-md-6">
-                    <textarea type="outline" class="form-control {{ $errors->has('outline') ? 'is-invalid' : '' }}" id="outline" name="outline">{{ $errors->any() ? old('outline') : $book->outline  }}</textarea>
+                    <textarea class="form-control {{ $errors->has('outline') ? 'is-invalid' : '' }}" id="outline" name="outline">{{ $errors->any() ? old('outline') : $book->outline  }}</textarea>
                 </div>
             </div>
                     <div class="form-group row">

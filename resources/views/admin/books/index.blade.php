@@ -40,9 +40,6 @@
             </tbody>
         </table>
     </div>
-
-
-
 @endsection
 @section('addJs')
 @endsection

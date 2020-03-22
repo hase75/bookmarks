@@ -22,4 +22,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin'], fu
 Route::group(['prefix' => 'user', 'as' => 'user.', 'namespace' => 'User'], function () {
     // 本
     Route::resource('books', 'BookController', ['except' => ['create', 'store', 'edit', 'update', 'destroy']]);
+
+    // 口コミ
+    Route::post('/evaluations', 'EvaluationController@store')->name('evaluations.store');
 });
