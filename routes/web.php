@@ -11,6 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', 'Admin\BookController@index');
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin'], function () {
+    // 本
+    Route::resource('books', 'BookController', ['except' => ['show', 'destroy']]);
+    Route::get('/books/{book}', 'BookController@destroy')->name('books.destroy');
+});
+
+Route::group(['prefix' => 'user', 'as' => 'user.', 'namespace' => 'User'], function () {
+    // 本
+    Route::resource('books', 'BookController', ['except' => ['create', 'store', 'edit', 'update', 'destroy']]);
 });

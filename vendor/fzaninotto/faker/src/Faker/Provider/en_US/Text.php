@@ -40,8 +40,8 @@ CHAPTER I. Down the Rabbit-Hole
 
 Alice was beginning to get very tired of sitting by her sister on the
 bank, and of having nothing to do: once or twice she had peeped into the
-book her sister was reading, but it had no pictures or conversations in
-it, 'and what is the use of a book,' thought Alice 'without pictures or
+books her sister was reading, but it had no pictures or conversations in
+it, 'and what is the use of a books,' thought Alice 'without pictures or
 conversations?'
 
 So she was considering in her own mind (as well as she could, for the
@@ -75,7 +75,7 @@ plenty of time as she went down to look about her and to wonder what was
 going to happen next. First, she tried to look down and make out what
 she was coming to, but it was too dark to see anything; then she
 looked at the sides of the well, and noticed that they were filled with
-cupboards and book-shelves; here and there she saw maps and pictures
+cupboards and books-shelves; here and there she saw maps and pictures
 hung upon pegs. She took down a jar from one of the shelves as
 she passed; it was labelled 'ORANGE MARMALADE', but to her great
 disappointment it was empty: she did not like to drop the jar for fear
@@ -162,7 +162,7 @@ impossible.
 
 There seemed to be no use in waiting by the little door, so she went
 back to the table, half hoping she might find another key on it, or at
-any rate a book of rules for shutting people up like telescopes: this
+any rate a books of rules for shutting people up like telescopes: this
 time she found a little bottle on it, ('which certainly was not here
 before,' said Alice,) and round the neck of the bottle was a paper
 label, with the words 'DRINK ME' beautifully printed on it in large
@@ -395,7 +395,7 @@ but it said nothing.
 a French mouse, come over with William the Conqueror.' (For, with all
 her knowledge of history, Alice had no very clear notion how long ago
 anything had happened.) So she began again: 'Ou est ma chatte?' which
-was the first sentence in her French lesson-book. The Mouse gave a
+was the first sentence in her French lesson-books. The Mouse gave a
 sudden leap out of the water, and seemed to quiver all over with fright.
 'Oh, I beg your pardon!' cried Alice hastily, afraid that she had hurt
 the poor animal's feelings. 'I quite forgot you didn't like cats.'
@@ -764,7 +764,7 @@ rabbits. I almost wish I hadn't gone down that rabbit-hole--and yet--and
 yet--it's rather curious, you know, this sort of life! I do wonder what
 CAN have happened to me! When I used to read fairy-tales, I fancied that
 kind of thing never happened, and now here I am in the middle of one!
-There ought to be a book written about me, that there ought! And when I
+There ought to be a books written about me, that there ought! And when I
 grow up, I'll write one--but I'm grown up now,' she added in a sorrowful
 tone; 'at least there's no room to grow up any more HERE.'
 
@@ -2138,7 +2138,7 @@ kiss my hand if it likes.'
 'Don't be impertinent,' said the King, 'and don't look at me like that!'
 He got behind Alice as he spoke.
 
-'A cat may look at a king,' said Alice. 'I've read that in some book,
+'A cat may look at a king,' said Alice. 'I've read that in some books,
 but I don't remember where.'
 
 'Well, it must be removed,' said the King very decidedly, and he called
@@ -3137,7 +3137,7 @@ Alice could see this, as she was near enough to look over their slates;
 'but it doesn't matter a bit,' she thought to herself.
 
 At this moment the King, who had been for some time busily writing in
-his note-book, cackled out 'Silence!' and read out from his book, 'Rule
+his note-books, cackled out 'Silence!' and read out from his books, 'Rule
 Forty-two. ALL PERSONS MORE THAN A MILE HIGH TO LEAVE THE COURT.'
 
 Everybody looked at Alice.
@@ -3151,11 +3151,11 @@ Everybody looked at Alice.
 'Well, I shan't go, at any rate,' said Alice: 'besides, that's not a
 regular rule: you invented it just now.'
 
-'It's the oldest rule in the book,' said the King.
+'It's the oldest rule in the books,' said the King.
 
 'Then it ought to be Number One,' said Alice.
 
-The King turned pale, and shut his note-book hastily. 'Consider your
+The King turned pale, and shut his note-books hastily. 'Consider your
 verdict,' he said to the jury, in a low, trembling voice.
 
 'There's more evidence to come yet, please your Majesty,' said the White

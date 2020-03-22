@@ -10,7 +10,7 @@
 namespace SebastianBergmann\Comparator;
 
 /**
- * A book.
+ * A books.
  */
 class Book
 {

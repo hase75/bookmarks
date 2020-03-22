@@ -394,7 +394,7 @@ function _getThemeBackgroundColor($theme)
             'g' => 240.0,
             'b' => 240.0,
         ),
-        'school-book' => array(
+        'school-books' => array(
             'r' => 246.0,
             'g' => 246.0,
             'b' => 174.0,

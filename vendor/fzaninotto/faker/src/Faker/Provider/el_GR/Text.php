@@ -2259,7 +2259,7 @@ EOT;
     *** START: FULL LICENSE ***
         Creative Commons Legal Code
         Attribution-ShareAlike 3.0 Unported
-    
+
     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
     LEGAL SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN
     ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
@@ -2327,7 +2327,7 @@ EOT;
     "Work" means the literary and/or artistic work offered under the terms
     of this License including without limitation any production in the
     literary, scientific and artistic domain, whatever may be the mode or
-    form of its expression including digital form, such as a book,
+    form of its expression including digital form, such as a books,
     pamphlet and other writing; a lecture, address, sermon or other work
     of the same nature; a dramatic or dramatico-musical work; a
     choreographic work or entertainment in dumb show; a musical

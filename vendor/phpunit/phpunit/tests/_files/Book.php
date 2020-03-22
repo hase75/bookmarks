@@ -9,7 +9,7 @@
  */
 
 /**
- * A book.
+ * A books.
  */
 class Book
 {

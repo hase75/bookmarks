@@ -7,7 +7,7 @@ class Text extends \Faker\Provider\Text
     /**
      * Carlo Collodi
      * Pinocchio
-     * Questo e-book è stato realizzato anche grazie al sostegno di:
+     * Questo e-books è stato realizzato anche grazie al sostegno di:
      *
      * E-text
      * Web design, Editoria, Multimedia

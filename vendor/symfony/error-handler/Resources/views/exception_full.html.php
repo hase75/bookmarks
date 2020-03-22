@@ -18,7 +18,7 @@
 
                     <div class="help-link">
                         <a href="https://symfony.com/doc/<?= Symfony\Component\HttpKernel\Kernel::VERSION; ?>/index.html">
-                            <span class="icon"><?= $this->include('assets/images/icon-book.svg'); ?></span>
+                            <span class="icon"><?= $this->include('assets/images/icon-books.svg'); ?></span>
                             <span class="hidden-xs-down">Symfony</span> Docs
                         </a>
                     </div>
