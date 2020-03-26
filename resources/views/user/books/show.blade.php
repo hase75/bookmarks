@@ -12,7 +12,7 @@
                     <img src="{{ Storage::disk('local')->url($book->image) }}" width="100%" height="500px"/>
                 </div>
 
-                <p class="text-center pt-5 h2">{{ $book->title }}</>
+                <p class="text-center pt-5 h2">{{ $book->title }}</p>
 
                 <p class="text-right pt-5 h3">{{ $book->price }}円</p>
 
