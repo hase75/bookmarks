@@ -4,7 +4,6 @@ namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
 use App\Models\Book;
-use App\Models\Evaluation;
 use Illuminate\Http\Request;
 
 class BookController extends Controller
@@ -22,11 +21,8 @@ class BookController extends Controller
     {
         $book = Book::findOrFail($id);
 
-        $evaluations = Evaluation::where('books_id', '=', $id)->get();
-
         return view('user.books.show')->with([
             'book' => $book,
-            'evaluations' => $evaluations
         ]);
     }
 }
