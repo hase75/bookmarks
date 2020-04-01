@@ -31,7 +31,7 @@
                     <td class="text-center"></td>
 
                     <td class="text-center">
-                        <a href="{{ route('admin.books.edit', ['book' => $book->id]) }}" class="btn btn-primary">編集</a>
+                        <a href="" class="btn btn-primary">編集</a>
 
                         <a href="{{ route('admin.books.destroy', ['book' => $book->id]) }}" class="btn btn-danger">削除</a>
                     </td>

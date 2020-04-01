@@ -43,32 +43,14 @@ class BookController extends Controller
         return redirect(route('admin.books.index'));
     }
 
-    public function edit($id)
+    public function edit()
     {
-        $book = Book::findOrfail($id);
 
-        return view('admin.books.edit')->with([
-            'book' => $book,
-            'mode' => 'update'
-        ]);
     }
 
-    public function update(BookRequest $request, $id)
+    public function update()
     {
-        $book = Book::findOrfail($id);
 
-        Storage::disk('local')->delete($book->image);
-
-        $imagePath = $request->image->store('public/books_images');
-
-        $params = $request->validated();
-
-        $params['image'] = $imagePath;
-
-        $book->update($params);
-
-        session()->flash('flash_message', '更新が完了しました');
-        return redirect(route('admin.books.index'));
     }
 
     public function destroy($id)
