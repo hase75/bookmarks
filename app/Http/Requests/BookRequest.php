@@ -30,4 +30,14 @@ class BookRequest extends FormRequest
             'outline' => 'required|max:40',
         ];
     }
+
+    public function attributes()
+    {
+        return [
+            'title' => 'タイトル',
+            'image' => '画像',
+            'price' => '値段',
+            'outline' => '概要',
+        ];
+    }
 }

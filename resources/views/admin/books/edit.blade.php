@@ -54,11 +54,19 @@
                     <textarea class="form-control {{ $errors->has('outline') ? 'is-invalid' : '' }}" id="outline" name="outline">{{ $errors->any() ? old('outline') : $book->outline  }}</textarea>
                 </div>
             </div>
-                    <div class="form-group row">
-                        <div class="mx-auto bottom-button mt-5">
-                            <button class="btn btn-success btn-submit px-5">更新</button>
-                        </div>
+            @if ($mode == 'create')
+                <div class="form-group row">
+                    <div class="mx-auto bottom-button mt-5">
+                        <button class="btn btn-primary btn-submit px-5">登録</button>
                     </div>
+                </div>
+             @else
+                <div class="form-group row">
+                    <div class="mx-auto bottom-button mt-5">
+                        <button class="btn btn-success btn-submit px-5">更新</button>
+                    </div>
+                </div>
+             @endif
          </form>
 
     </div>
