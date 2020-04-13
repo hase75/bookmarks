@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'User\BookController@index')->name('/');
+Route::get('/', 'User\BookController@index')->name('/')->middleware('UserRoleMiddleware');
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => 'AdminRoleMiddleware'], function () {
     // 本
