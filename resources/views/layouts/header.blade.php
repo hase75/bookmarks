@@ -11,9 +11,9 @@
                 <!-- Authentication Links -->
                 <li class="nav-item">
                     @if (isset($role) && $role === 'user')
-                        <a class="nav-link" href="{{ route('admin.books.index') }}">管理側本一覧</a>
+                        <a class="nav-link" href="{{ route('admin.books.index') }}">管理側書籍一覧</a>
                     @elseif (isset($role) && $role === 'admin')
-                        <a class="nav-link" href="{{ route('user.books.index') }}">ユーザー側本一覧</a>
+                        <a class="nav-link" href="{{ route('user.books.index') }}">ユーザー側書籍一覧</a>
                     @endif
                 </li>
 

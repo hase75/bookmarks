@@ -4,10 +4,14 @@
 
 @section('content')
     <div class="container">
-        <div class="row pb-5">
+        <div class="page-header">
+            <h1 class="pb-2 mt-4 mb-2 border-bottom">管理側書籍一覧画面</h1>
+        </div>
+
+        <div class="row pb-5 pt-3">
             <div class="col-12">
                 <div class="create-route float-right">
-                    <a href="{{ route('admin.books.create') }}" class="btn btn-primary px-5">本追加</a>
+                    <a href="{{ route('admin.books.create') }}" class="btn btn-primary px-5">新規登録</a>
                 </div>
             </div>
         </div>

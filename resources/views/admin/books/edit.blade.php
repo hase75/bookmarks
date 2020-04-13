@@ -4,6 +4,14 @@
 
 @section('content')
     <div class="container">
+        <div class="page-header pb-5">
+            @if ($mode == 'create')
+                <h1 class="pb-2 mt-4 mb-2 border-bottom">管理側書籍登録画面</h1>
+            @else
+                <h1 class="pb-2 mt-4 mb-2 border-bottom">管理側書籍管理画面</h1>
+            @endif
+        </div>
+
         @if(count($errors) > 0)
             <div class="alert-danger">
                 <ul>
