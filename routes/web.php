@@ -15,8 +15,7 @@ Route::get('/', 'User\BookController@index')->name('/');
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => 'AdminRoleMiddleware'], function () {
     // 本
-    Route::resource('books', 'BookController', ['except' => ['show', 'destroy']]);
-    Route::get('/books/{book}', 'BookController@destroy')->name('books.destroy');
+    Route::resource('books', 'BookController', ['except' => ['show']]);
 });
 
 Route::group(['prefix' => 'user', 'as' => 'user.', 'namespace' => 'User', 'middleware' => 'UserRoleMiddleware'], function () {

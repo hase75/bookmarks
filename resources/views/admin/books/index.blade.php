@@ -33,7 +33,11 @@
                     <td class="text-center">
                         <a href="" class="btn btn-primary">編集</a>
 
-                        <a href="{{ route('admin.books.destroy', ['book' => $book->id]) }}" class="btn btn-danger">削除</a>
+                        <form action="{{ route('admin.books.destroy', ['book' => $book->id])}}" method="POST" class="d-inline">
+                            @csrf
+                            @method('DELETE')
+                            <input type="submit" class="btn btn-danger delete-button" value="削除">
+                        </form>
                     </td>
                 </tr>
             @endforeach
