@@ -13,7 +13,7 @@ class BookController extends Controller
 {
     public function index()
     {
-        $books = Book::orderBy('title', 'asc')->orderBy('id', 'desc')->get();
+        $books = Book::orderByRequest();
 
         return view('admin.books.index')->with([
             'books' => $books,

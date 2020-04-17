@@ -12,4 +12,8 @@ class Book extends Model
         'outline',
         'image',
     ];
+
+    public static function orderByRequest() {
+        return self::orderBy('title', 'asc')->orderBy('id', 'desc')->get();
+    }
 }

@@ -10,6 +10,6 @@ class EvaluationController extends Controller
 {
     public function store()
     {
-        // TODO::evaluationsテーブルのevaluationがNOT NULLなので0をセットしてください
+       
     }
 }
