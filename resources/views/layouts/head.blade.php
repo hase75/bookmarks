@@ -25,6 +25,7 @@
 
   <!-- laravel mix -->
   <link rel="stylesheet" type="text/css" href="{{ mix('/css/app.css') }}" />
+  <link rel="stylesheet" type="text/css" href="{{ asset('/css/common.css') }}" />
 
   @yield('addCss')
 </head>
