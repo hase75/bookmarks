@@ -22,6 +22,7 @@
                 <th>タイトル</th>
                 <th>価格</th>
                 <th>評価</th>
+                <th>登録日</th>
                 <th></th>
             </tr>
             </thead>
@@ -33,6 +34,8 @@
                     <td class="text-right">{{ $book->price }}円</td>
 
                     <td class="text-center"></td>
+
+                    <td class="text-center">{{ \Carbon\Carbon::parse($book->created_at)->format('Y年m月d日') }}</td>
 
                     <td class="text-center">
                         <a href="" class="btn btn-primary">編集</a>
