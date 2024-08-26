@@ -15,7 +15,7 @@ class CreateEvaluationsTable extends Migration
     {
         Schema::create('evaluations', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('books_id');
+            $table->unsignedBigInteger('book_id');
             $table->integer('evaluation')->default(1);
             $table->string('word')->nullable();
             $table->timestamps();

@@ -16,4 +16,8 @@ class Book extends Model
     public static function orderByRequest() {
         return self::orderBy('title', 'asc')->orderBy('id', 'desc')->get();
     }
+
+    public function evaluations() {
+		return $this->hasMany(Evaluation::class, 'book_id', 'id');
+    }
 }
